@@ -1,0 +1,7 @@
+flight_number = input()
+company_ru = input()
+company_en = input()
+arrival_city_ru = input()
+arrival_city_en = input()
+print("Заканчивается посадка на рейс",flight_number,company_ru,"до",arrival_city_ru)
+print("This is the final boarding call for",company_en,"flight",flight_number,"to",arrival_city_en)
