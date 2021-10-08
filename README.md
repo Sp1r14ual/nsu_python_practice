@@ -27,7 +27,7 @@
 26. task26.py: Implemented and tested, description required
 27. task27.py: Implemented and tested, description required
 28. task28.py: Implemented and tested, description required
-29. task29.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
+29. task29.py: Implemented and tested, description required
 30. task30.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 31. task31.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 32. task32.py: TBD
