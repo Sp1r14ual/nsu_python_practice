@@ -20,9 +20,9 @@
 19. task19.py: TBD
 20. task20.py: Implemented and tested, description required
 21. task21.py: TBD
-22. task22.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
+22. task22.py: Implemented and tested, works incorrectly on some tests. Going to fix the code later.
 23. task23.py: TBD
-24. task24.py: Implemented. Works incorrectly on some tests. Going to fix code later.
+24. task24.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 25. task25.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 26. task26.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 27. task27.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
