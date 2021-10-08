@@ -8,8 +8,8 @@
 7. task07.py: Implemented and tested, description required
 8. task08.py: Implemented and tested, description required
 9. task09.py: Implemented and tested, description required
-10. task10.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
-11. task11.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
+10. task10.py: Implemented and tested, description required
+11. task11.py: Implemented and tested, description required
 12. task12.py: TBD
 13. task13.py: TBD
 14. task14.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
@@ -29,4 +29,8 @@
 28. task28.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 29. task29.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
 30. task30.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
-31. tasks 31-45: TBD
+31. task31.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
+32. task32.py: TBD
+33. task33.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
+34. task34.py: TBD
+35. tasks 35-45: Will be implemented later. 
