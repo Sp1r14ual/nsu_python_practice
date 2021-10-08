@@ -1,4 +1,4 @@
-# nsu_python_practice
+# NSU Python Practice
 1. task01.py: Just a basic program that prints "Hello, Python!" in console.
 2. task02.py: Implemented and tested, description required
 3. task03.py: Implemented and tested, description required
