@@ -31,6 +31,6 @@
 30. task30.py: Implemented and tested, description required
 31. task31.py: Implemented and tested, but tester throws out "wrong answer" even when the expected and actual output are identical. Going to find out the issue later.
 32. task32.py: TBD
-33. task33.py: Implemented. TESTING AND DESCRIPTION REQUIRED!
+33. task33.py: Implemented and tested, description required
 34. task34.py: TBD
 35. tasks 35-45: Will be implemented later. 
