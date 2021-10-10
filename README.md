@@ -34,3 +34,4 @@
 33. task33.py: Implemented and tested, description required
 34. task34.py: TBD
 35. tasks 35-45: Will be implemented later. 
+36. project1.py: Implemented and tested, description required
