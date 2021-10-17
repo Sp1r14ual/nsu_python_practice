@@ -10,7 +10,7 @@
 9. task09.py: Implemented and tested, description required
 10. task10.py: Implemented and tested, description required
 11. task11.py: Implemented and tested, description required
-12. task12.py: TBD
+12. task12.py: Implemented and tested, description required
 13. task13.py: TBD
 14. task14.py: Implemented and tested, description required
 15. task15.py: Implemented and tested, description required
