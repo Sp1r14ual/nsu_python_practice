@@ -11,7 +11,7 @@
 10. task10.py: Implemented and tested, description required
 11. task11.py: Implemented and tested, description required
 12. task12.py: Implemented and tested, description required
-13. task13.py: TBD
+13. task13.py: Implemented and tested, description required
 14. task14.py: Implemented and tested, description required
 15. task15.py: Implemented and tested, description required
 16. task16.py: Implemented and tested, description required
@@ -30,6 +30,7 @@
 29. task29.py: Implemented and tested, description required
 30. task30.py: Implemented and tested, description required
 31. task31.py: Implemented and tested, but tester throws out "wrong answer" even when the expected and the actual output are identical. Going to find out the issue later.
+31.1. task31_1.py: Implemented and tested, but tester throws out "wrong answer" even when the expected and the actual output are identical. Going to find out the issue later. (Alternative solution for task 31)
 32. task32.py: TBD
 33. task33.py: Implemented and tested, description required
 34. task34.py: TBD
