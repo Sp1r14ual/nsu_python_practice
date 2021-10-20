@@ -20,7 +20,7 @@
 19. task19.py: Implemented and tested, description required
 20. task20.py: Implemented and tested, description required
 21. task21.py: Implemented and tested, description required
-22. task22.py: Implemented and tested, works incorrectly on some tests. Going to fix the code later.
+22. task22.py: Implemented and tested, description required
 23. task23.py: Implemented and tested, description required
 24. task24.py: Implemented and tested, description required
 25. task25.py: Implemented and tested, description required
