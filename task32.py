@@ -1,0 +1,5 @@
+n = int(input())
+floor_area = 4 * (n / 0.125 - 1)
+height = round(n / 0.065)
+total_area = int(floor_area * height * 0.5)
+print(total_area)
