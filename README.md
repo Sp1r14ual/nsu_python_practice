@@ -30,7 +30,7 @@
 29. task29.py: Implemented and tested, description required
 30. task30.py: Implemented and tested, description required
 31. task31.py: Implemented and tested, description required
-32. task32.py: TBD
+32. task32.py: Implemented and tested, description required
 33. task33.py: Implemented and tested, description required
 34. task34.py: Implemented and tested, description required
 35. tasks 35-45: Will be implemented later. 
