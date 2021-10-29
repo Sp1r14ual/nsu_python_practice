@@ -44,29 +44,35 @@ def parallelogram(a, b, color):
     turtle.up()
 
 def figure1():
-    turtle.left(180)
-    turtle.setposition(100, 100)
-    triangle(200, "red")
+    #Change parameter below to change size
+    a = 500
+    #Change parameter above to change size
 
-    turtle.setposition(-100, 100)
+    turtle.speed("fast")
+
+    turtle.left(180)
+    turtle.setposition(a / 2, a / 2)
+    triangle(a, "red")
+
+    turtle.setposition(-(a / 2), (a / 2))
     turtle.left(90)
-    triangle(200, "yellow")
+    triangle(a, "yellow")
 
-    turtle.setposition(100, -0)
+    turtle.setposition(a / 2, 0)
     turtle.left(180)
-    triangle(100, "orchid")
+    triangle(a / 2, "orchid")
 
     turtle.left(135)
-    square(50 * math.sqrt(2), "orange")
+    square(a / 2 * math.sqrt(2) / 2, "orange")
 
-    triangle(100 * math.sqrt(2), "cyan")
+    triangle(a / 2 * math.sqrt(2), "cyan")
 
     turtle.left(135)
-    turtle.setposition(-50, -50)
-    triangle(100, "violet")
+    turtle.setposition(-(a/4), -(a / 4))
+    triangle(a / 2, "violet")
 
-    turtle.setposition(-100, -100)
-    parallelogram(50 * math.sqrt(2), 100, "lime")
+    turtle.setposition(-(a/2), -(a/2))
+    parallelogram(a / 2 * math.sqrt(2) / 2, a / 2, "lime")
 
 
 
