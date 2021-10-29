@@ -45,14 +45,14 @@ def parallelogram(a, b, color):
 
 def figure1():
     turtle.left(180)
-    turtle.setposition(200, 0)
+    turtle.setposition(100, 100)
     triangle(200, "red")
 
-    turtle.setposition(0, 0)
+    turtle.setposition(-100, 100)
     turtle.left(90)
     triangle(200, "yellow")
 
-    turtle.setposition(200, -100)
+    turtle.setposition(100, -0)
     turtle.left(180)
     triangle(100, "orchid")
 
@@ -62,11 +62,12 @@ def figure1():
     triangle(100 * math.sqrt(2), "cyan")
 
     turtle.left(135)
-    turtle.setposition(50, -150)
+    turtle.setposition(-50, -50)
     triangle(100, "violet")
 
-    turtle.setposition(0, -200)
+    turtle.setposition(-100, -100)
     parallelogram(50 * math.sqrt(2), 100, "lime")
+
 
 
 
