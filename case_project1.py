@@ -68,10 +68,10 @@ def figure1():
     triangle(a / 2 * math.sqrt(2), "cyan")
 
     turtle.left(135)
-    turtle.setposition(-(a/4), -(a / 4))
+    turtle.setposition(-(a / 4), -(a / 4))
     triangle(a / 2, "violet")
 
-    turtle.setposition(-(a/2), -(a/2))
+    turtle.setposition(-(a / 2), -(a / 2))
     parallelogram(a / 2 * math.sqrt(2) / 2, a / 2, "lime")
 
 
