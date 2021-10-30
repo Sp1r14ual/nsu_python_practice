@@ -77,39 +77,34 @@ def figure1():
 
 #Person 2
 def figure2():
+    #Change parameter below to change painting's size
+    a = 400
+    #Change parameter above to change painting's size
 
     turtle.left(45)
-    triangle(200, "yellow")
+    triangle(a, "yellow")
 
-    turtle.setposition(-100 * math.sqrt(2), 100 * math.sqrt(2))
+    turtle.setposition(-(a / 2) * math.sqrt(2), a / 2 * math.sqrt(2))
     turtle.right(90)
-    triangle(200, "red")
+    triangle(a, "red")
 
-    turtle.setposition(0, 100 * math.sqrt(2))
+    turtle.setposition(0, (a / 2) * math.sqrt(2))
     turtle.left(180)
-    square(50, "orange")
+    square(a / 4, "orange")
 
-    turtle.setposition(50 * math.sqrt(2), -50 * math.sqrt(2))
-    triangle(100, "cyan")
+    turtle.setposition(a / 4 * math.sqrt(2), -(a / 4) * math.sqrt(2))
+    triangle(a / 2, "cyan")
 
-    turtle.setposition(50 * math.sqrt(2) * 3/4, -50 * math.sqrt(2))
+    turtle.setposition(a / 4 * math.sqrt(2) * 3/4, -(a / 4) * math.sqrt(2))
     turtle.right(180)
-    triangle(75, "violet")
+    triangle(3/4 * (a / 2), "violet")
 
     turtle.setposition(0, 0)
     turtle.right(90)
-    parallelogram(50 * math.sqrt(2) * 3/4, 50 * math.sqrt(2), "lime")
+    parallelogram(a / 4 * math.sqrt(2) * 3/4, a / 4 * math.sqrt(2), "lime")
 
-    turtle.setposition(-13 * math.sqrt(2), -50 * math.sqrt(2))
-    triangle(75, "orchid")
-    
-    #Printing picture correctly, but only for fixed size
-    #Would be better to implement feature to change size of the piture (see figure1 function)
-
-
-
-
-
+    turtle.setposition(-(a * 65/1000) * math.sqrt(2), -(a / 4) * math.sqrt(2))
+    triangle((a / 2) * 3/4, "orchid")
 
 turtle.speed("fast")
 
