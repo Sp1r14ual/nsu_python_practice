@@ -43,12 +43,12 @@ def parallelogram(a, b, color):
     turtle.end_fill()
     turtle.up()
 
+
+#Square built of other figures
 def figure1():
     #Change parameter below to change size
     a = 500
     #Change parameter above to change size
-
-    turtle.speed("fast")
 
     turtle.left(180)
     turtle.setposition(a / 2, a / 2)
@@ -75,10 +75,44 @@ def figure1():
     parallelogram(a / 2 * math.sqrt(2) / 2, a / 2, "lime")
 
 
+#Person 2
+def figure2():
 
+    turtle.left(45)
+    triangle(200, "yellow")
 
+    turtle.setposition(-100 * math.sqrt(2), 100 * math.sqrt(2))
+    turtle.right(90)
+    triangle(200, "red")
 
+    turtle.setposition(0, 100 * math.sqrt(2))
+    turtle.left(180)
+    square(50, "orange")
+
+    turtle.setposition(50 * math.sqrt(2), -50 * math.sqrt(2))
+    triangle(100, "cyan")
+
+    turtle.setposition(50 * math.sqrt(2) * 3/4, -50 * math.sqrt(2))
+    turtle.right(180)
+    triangle(75, "violet")
+
+    turtle.setposition(0, 0)
+    turtle.right(90)
+    parallelogram(50 * math.sqrt(2) * 3/4, 50 * math.sqrt(2), "lime")
+
+    turtle.setposition(-13 * math.sqrt(2), -50 * math.sqrt(2))
+    triangle(75, "orchid")
     
+    #Printing picture correctly, but only in fixed size
+    #Would be better to implement feature to change size of the piture (see figure1 function)
 
-figure1()
+
+
+
+
+
+turtle.speed("fast")
+
+#figure1()
+figure2()
 turtle.exitonclick()
