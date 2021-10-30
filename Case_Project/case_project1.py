@@ -75,7 +75,7 @@ def figure1():
     parallelogram(a / 2 * math.sqrt(2) / 2, a / 2, "lime")
 
 
-#Person 2
+#Person by the right from the square on preview
 def figure2():
     #Change parameter below to change painting's size
     a = 400
@@ -106,8 +106,39 @@ def figure2():
     turtle.setposition(-(a * 65/1000) * math.sqrt(2), -(a / 4) * math.sqrt(2))
     triangle((a / 2) * 3/4, "orchid")
 
+#Person by the left from the square on preview
+def figure3():
+    turtle.left(45)
+    triangle(200, "red")
+
+    turtle.setposition(1/4 * 100 * math.sqrt(2), 100 * math.sqrt(2))
+    turtle.left(90)
+    square(50, "orange")
+    
+    turtle.setposition(0, 100 * math.sqrt(2))
+    turtle.left(90)
+    parallelogram(50 * math.sqrt(2), 100, "lime")
+
+    turtle.setposition(1/4 * 100 * math.sqrt(2), 1/4 * 100 * math.sqrt(2))
+    triangle(200, "yellow")
+
+    turtle.setposition(1/4 * 100 * math.sqrt(2), -1/2 * 100 * math.sqrt(2))
+    turtle.left(45)
+    triangle(100, "cyan")
+
+    turtle.setposition(1/4 * 100 * math.sqrt(2), -1/2 * 100 * math.sqrt(2) - 9/10 * 100 * math.sqrt(2))
+    turtle.left(180)
+    triangle(50, "violet")
+
+    turtle.setposition(9/10 * (-3/4 * 100 * math.sqrt(2) - 50 * math.sqrt(2)/2), 9/10 * (-3/4 * 100 * math.sqrt(2) - 50 * math.sqrt(2)/2))
+    turtle.right(45)
+    triangle(50, "orchid")
+
+
+
 turtle.speed("fast")
 
 #figure1()
-figure2()
+#figure2()
+figure3()
 turtle.exitonclick()
