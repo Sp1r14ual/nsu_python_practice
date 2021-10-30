@@ -108,31 +108,35 @@ def figure2():
 
 #Person by the left from the square on preview
 def figure3():
-    turtle.left(45)
-    triangle(200, "red")
+    #Change parameter below to change painting's size
+    a = 400
+    #Change parameter above to change painting's size
 
-    turtle.setposition(1/4 * 100 * math.sqrt(2), 100 * math.sqrt(2))
+    turtle.left(45)
+    triangle(a, "red")
+
+    turtle.setposition(1/4 * a/2 * math.sqrt(2), a/2 * math.sqrt(2))
     turtle.left(90)
-    square(50, "orange")
+    square(a/4, "orange")
     
-    turtle.setposition(0, 100 * math.sqrt(2))
+    turtle.setposition(0, a/2 * math.sqrt(2))
     turtle.left(90)
-    parallelogram(50 * math.sqrt(2), 100, "lime")
+    parallelogram(a/4 * math.sqrt(2), a/2, "lime")
 
-    turtle.setposition(1/4 * 100 * math.sqrt(2), 1/4 * 100 * math.sqrt(2))
-    triangle(200, "yellow")
+    turtle.setposition(1/4 * a/2 * math.sqrt(2), 1/4 * a/2 * math.sqrt(2))
+    triangle(a, "yellow")
 
-    turtle.setposition(1/4 * 100 * math.sqrt(2), -1/2 * 100 * math.sqrt(2))
+    turtle.setposition(1/4 * a/2 * math.sqrt(2), -1/2 * a/2 * math.sqrt(2))
     turtle.left(45)
-    triangle(100, "cyan")
+    triangle(a/2, "cyan")
 
-    turtle.setposition(1/4 * 100 * math.sqrt(2), -1/2 * 100 * math.sqrt(2) - 9/10 * 100 * math.sqrt(2))
+    turtle.setposition(1/4 * a/2 * math.sqrt(2), -1/2 * a/2 * math.sqrt(2) - 9/10 * a/2 * math.sqrt(2))
     turtle.left(180)
-    triangle(50, "violet")
+    triangle(a/4, "violet")
 
-    turtle.setposition(9/10 * (-3/4 * 100 * math.sqrt(2) - 50 * math.sqrt(2)/2), 9/10 * (-3/4 * 100 * math.sqrt(2) - 50 * math.sqrt(2)/2))
+    turtle.setposition(9/10 * (-3/4 * a/2 * math.sqrt(2) - a/4 * math.sqrt(2)/2), 9/10 * (-3/4 * a/2 * math.sqrt(2) - a/4 * math.sqrt(2)/2))
     turtle.right(45)
-    triangle(50, "orchid")
+    triangle(a/4, "orchid")
 
 
 
