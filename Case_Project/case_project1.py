@@ -103,7 +103,7 @@ def figure2():
     turtle.setposition(-13 * math.sqrt(2), -50 * math.sqrt(2))
     triangle(75, "orchid")
     
-    #Printing picture correctly, but only in fixed size
+    #Printing picture correctly, but only for fixed size
     #Would be better to implement feature to change size of the piture (see figure1 function)
 
 
