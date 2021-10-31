@@ -138,11 +138,48 @@ def figure3():
     turtle.right(45)
     triangle(a/4, "orchid")
 
+#ship
+def figure4():
+    turtle.setposition(0, 200)
+    turtle.right(90)
+    triangle(200, "red")
+
+    turtle.setposition(100, 100)
+    turtle.left(45)
+    square(50 * math.sqrt(2), "orange")
+
+    turtle.setposition(0, 0)
+    turtle.left(45)
+    triangle(100, "orchid")
+
+    turtle.setposition(50 * math.sqrt(2), 200)
+    turtle.left(135)
+    triangle(100, "violet")
+
+    turtle.setposition(100, 0)
+    turtle.left(45)
+    triangle(150, "cyan")
+
+    turtle.setposition(0, 200 * 1/10 + 200 * math.sqrt(2)/2)
+    turtle.left(45)
+    triangle(200, "yellow")
+
+    turtle.setposition(-125, 0)
+    turtle.left(90)
+    parallelogram(75, 150 * math.sqrt(2)/2, "lime")
+
+
+
+
+
+
+
 
 
 turtle.speed("fast")
 
 #figure1()
 #figure2()
-figure3()
+#figure3()
+figure4()
 turtle.exitonclick()
