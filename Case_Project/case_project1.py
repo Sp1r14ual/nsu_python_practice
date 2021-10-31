@@ -206,33 +206,37 @@ def figure5():
     square(a/4, "orange")
 
 def figure6():
+    #Change parameter below to change painting's size
+    a = 300
+    #Change parameter above to change painting's size
+
     turtle.up()
-    turtle.setposition(0, -100)
+    turtle.setposition(0, -a/2)
     turtle.right(135)
-    square(50 * math.sqrt(2), "orange")
+    square(a/4 * math.sqrt(2), "orange")
 
-    turtle.setposition(-100, -100)
+    turtle.setposition(-a/2, -a/2)
     turtle.left(45)
-    triangle(100, "violet")
+    triangle(a/2, "violet")
 
-    turtle.setposition(50, -150)
+    turtle.setposition(a/4, -3/4 * a)
     turtle.left(180)
-    triangle(200, "red")
+    triangle(a, "red")
 
     turtle.right(135)
-    turtle.forward(50 * math.sqrt(2))
+    turtle.forward(a/4 * math.sqrt(2))
     turtle.left(135)
-    parallelogram(50 * math.sqrt(2), 100, "lime")
+    parallelogram(a/4 * math.sqrt(2), a/2, "lime")
 
-    turtle.setposition(-50, 150)
+    turtle.setposition(-a/4, 3/4 * a)
     turtle.right(180)
-    triangle(200, "yellow")
+    triangle(a, "yellow")
 
     turtle.left(45)
-    triangle(100 * math.sqrt(2), "cyan")
+    triangle(a/2 * math.sqrt(2), "cyan")
 
     turtle.left(45)
-    triangle(100, "orchid")
+    triangle(a/2, "orchid")
 
 
 
