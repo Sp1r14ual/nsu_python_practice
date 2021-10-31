@@ -171,6 +171,40 @@ def figure4():
     turtle.left(90)
     parallelogram(a/2 * 3/4, 3/4 * a * math.sqrt(2)/2, "lime")
 
+def figure5():
+    turtle.setposition(100, -100)
+    turtle.left(90)
+    triangle(200, "yellow")
+
+    turtle.setposition(100, 100)
+    turtle.left(180)
+    triangle(200, "red")
+
+    turtle.setposition(-50, 100)
+    turtle.left(90)
+    triangle(150, "cyan")
+
+    turtle.setposition(100, 100)
+    parallelogram(50 * math.sqrt(2), 100, "lime")
+
+    turtle.setposition(-50, -50)
+    triangle(100, "orchid")
+
+    turtle.setposition(0, 0)
+    turtle.left(180)
+    triangle(100, "violet")
+
+    turtle.setposition(-100, 0)
+    turtle.left(45)
+    turtle.forward(25)
+    turtle.right(90)
+    square(50, "orange")
+
+
+
+
+
+
 
 
 
@@ -184,5 +218,6 @@ turtle.speed("fast")
 #figure1()
 #figure2()
 #figure3()
-figure4()
+#figure4()
+figure5()
 turtle.exitonclick()
