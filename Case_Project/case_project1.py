@@ -205,6 +205,7 @@ def figure5():
     turtle.right(90)
     square(a/4, "orange")
 
+#Rocket
 def figure6():
     #Change parameter below to change painting's size
     a = 300
