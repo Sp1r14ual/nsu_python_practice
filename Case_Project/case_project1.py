@@ -171,34 +171,39 @@ def figure4():
     turtle.left(90)
     parallelogram(a/2 * 3/4, 3/4 * a * math.sqrt(2)/2, "lime")
 
+#helicopter
 def figure5():
-    turtle.setposition(100, -100)
-    turtle.left(90)
-    triangle(200, "yellow")
+    #Change parameter below to change painting's size
+    a = 300
+    #Change parameter above to change painting's size
 
-    turtle.setposition(100, 100)
+    turtle.setposition(a/2, -a/2)
+    turtle.left(90)
+    triangle(a, "yellow")
+
+    turtle.setposition(a/2, a/2)
     turtle.left(180)
-    triangle(200, "red")
+    triangle(a, "red")
 
-    turtle.setposition(-50, 100)
+    turtle.setposition(-a/4, a/2)
     turtle.left(90)
-    triangle(150, "cyan")
+    triangle(3/4 * a, "cyan")
 
-    turtle.setposition(100, 100)
-    parallelogram(50 * math.sqrt(2), 100, "lime")
+    turtle.setposition(a/2, a/2)
+    parallelogram(a/4 * math.sqrt(2), a/2, "lime")
 
-    turtle.setposition(-50, -50)
-    triangle(100, "orchid")
+    turtle.setposition(-a/4, -a/4)
+    triangle(a/2, "orchid")
 
     turtle.setposition(0, 0)
     turtle.left(180)
-    triangle(100, "violet")
+    triangle(a/2, "violet")
 
-    turtle.setposition(-100, 0)
+    turtle.setposition(-a/2, 0)
     turtle.left(45)
-    turtle.forward(25)
+    turtle.forward(a/8)
     turtle.right(90)
-    square(50, "orange")
+    square(a/4, "orange")
 
 
 
