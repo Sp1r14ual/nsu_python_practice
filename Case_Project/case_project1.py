@@ -140,33 +140,36 @@ def figure3():
 
 #ship
 def figure4():
-    turtle.setposition(0, 200)
+    #Change parameter below to change painting's size
+    a = 300
+    #Change parameter above to change painting's size
+    turtle.setposition(0, a)
     turtle.right(90)
-    triangle(200, "red")
+    triangle(a, "red")
 
-    turtle.setposition(100, 100)
+    turtle.setposition(a/2, a/2)
     turtle.left(45)
-    square(50 * math.sqrt(2), "orange")
+    square(a/4 * math.sqrt(2), "orange")
 
     turtle.setposition(0, 0)
     turtle.left(45)
-    triangle(100, "orchid")
+    triangle(a/2, "orchid")
 
-    turtle.setposition(50 * math.sqrt(2), 200)
+    turtle.setposition(a/4 * math.sqrt(2), a)
     turtle.left(135)
-    triangle(100, "violet")
+    triangle(a/2, "violet")
 
-    turtle.setposition(100, 0)
+    turtle.setposition(a/2, 0)
     turtle.left(45)
-    triangle(150, "cyan")
+    triangle(3/4 * a, "cyan")
 
-    turtle.setposition(0, 200 * 1/10 + 200 * math.sqrt(2)/2)
+    turtle.setposition(0, a * 1/10 + a * math.sqrt(2)/2)
     turtle.left(45)
-    triangle(200, "yellow")
+    triangle(a, "yellow")
 
-    turtle.setposition(-125, 0)
+    turtle.setposition(-5/8 * a, 0)
     turtle.left(90)
-    parallelogram(75, 150 * math.sqrt(2)/2, "lime")
+    parallelogram(a/2 * 3/4, 3/4 * a * math.sqrt(2)/2, "lime")
 
 
 
