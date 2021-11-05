@@ -241,35 +241,38 @@ def figure6():
 
 
 def figure7():
+    #Change parameter below to change painting's size
+    a = 300
+    #Change parameter above to change painting's size
 
     turtle.up()
-    turtle.setposition(0, 100 * math.sqrt(2))
+    turtle.setposition(0, 1/2 * a * math.sqrt(2))
     turtle.right(135)
-    triangle(200, "red")
+    triangle(a, "red")
 
-    turtle.setposition(-100 * math.sqrt(2), -100 * math.sqrt(2))
+    turtle.setposition(-1/2 * a * math.sqrt(2), -1/2 * a * math.sqrt(2))
     turtle.right(180)
-    triangle(200, "yellow")
+    triangle(a, "yellow")
 
-    turtle.setposition(-25 * math.sqrt(2), -25 * math.sqrt(2))
+    turtle.setposition(-1/8 * a * math.sqrt(2), -1/8 * a * math.sqrt(2))
     turtle.left(180)
-    triangle(150, "cyan")
+    triangle(3/4 * a, "cyan")
 
-    turtle.setposition(2/3 * 75 * math.sqrt(2)/2 * 1/2, -100 * math.sqrt(2))
+    turtle.setposition(1/16 * a * math.sqrt(2), -1/2 * a * math.sqrt(2))
     turtle.right(90)
-    triangle(75, "violet")
+    triangle(3/8 * a, "violet")
 
-    turtle.setposition(0, 25 * math.sqrt(2))
+    turtle.setposition(0, 1/8 * a * math.sqrt(2))
     turtle.left(135)
-    triangle(75, "orchid")
+    triangle(3/8 * a, "orchid")
 
-    turtle.setposition(0, 75 * math.sqrt(2))
+    turtle.setposition(0, 3/8 * a * math.sqrt(2))
     turtle.right(180)
-    square(50 * math.sqrt(2), "orange")
+    square(1/4 * a * math.sqrt(2), "orange")
 
-    turtle.setposition(25 * math.sqrt(2), 125 * math.sqrt(2))
+    turtle.setposition(1/8 * a * math.sqrt(2), 5/8 * a * math.sqrt(2))
     turtle.left(45)
-    parallelogram(50 * math.sqrt(2), 100, "lime")
+    parallelogram(1/4 * a * math.sqrt(2), 1/2 * a, "lime")
 
 
 
