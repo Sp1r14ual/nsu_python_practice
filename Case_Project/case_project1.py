@@ -282,63 +282,41 @@ def figure7():
 
 #Flying Bird
 def figure8():
+    #Change parameter below to change painting's size
+    a = 400
+    #Change parameter above to change painting's size
 
     turtle.up()
-    turtle.setposition(-200 * 2/3 * math.sqrt(2)/2, 0)
+    turtle.setposition(-4/9 * a * math.sqrt(2)/2, 0)
     turtle.left(45)
-    square(200 * 2/3, "orange")
+    square(a * 4/9, "orange")
 
     turtle.left(90)
-    parallelogram(75 * math.sqrt(2), 150, "lime")
+    parallelogram(1/4 * a * math.sqrt(2), 1/2 * a, "lime")
     
-    turtle.setposition(-200 * 2/3 * math.sqrt(2)/2 - 75 * math.sqrt(2), -75 * math.sqrt(2))
+    turtle.setposition(-4/9 * a * math.sqrt(2)/2 - 1/4 * a * math.sqrt(2), -1/4 * a * math.sqrt(2))
     turtle.right(90)
-    triangle(150, "violet")
+    triangle(1/2 * a, "violet")
 
-    turtle.setposition(-200 * 2/3 * math.sqrt(2)/2 - 75 * math.sqrt(2), 0)
+    turtle.setposition(-4/9 * a * math.sqrt(2)/2 - 1/4 * a * math.sqrt(2), 0)
     turtle.left(180)
-    triangle(150, "orchid")
+    triangle(1/2 * a, "orchid")
 
-    turtle.setposition(200 * 2/3 * math.sqrt(2)/2, 0)
+    turtle.setposition(4/9 * a * math.sqrt(2)/2, 0)
     turtle.right(135)
-    turtle.forward(150 * math.sqrt(2))
+    turtle.forward(1/2 * a * math.sqrt(2))
     turtle.left(90)
-    turtle.forward(150 * math.sqrt(2))
+    turtle.forward(1/2 * a * math.sqrt(2))
     turtle.left(135)
-    triangle(300, "red")
+    triangle(a, "red")
 
-    turtle.forward(300)
+    turtle.forward(a)
     turtle.right(90)
-    triangle(300, "yellow")
+    triangle(a, "yellow")
 
-    turtle.setposition(200 * 2/3 * math.sqrt(2)/2, 75 * math.sqrt(2))
+    turtle.setposition(4/9 * a * math.sqrt(2)/2, 1/4 * a * math.sqrt(2))
     turtle.left(45)
-    triangle(150 * math.sqrt(2), "cyan")
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    triangle(1/2 * a * math.sqrt(2), "cyan")
 
 
 
