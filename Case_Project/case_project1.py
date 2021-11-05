@@ -50,6 +50,7 @@ def figure1():
     a = 500
     #Change parameter above to change size
 
+    turtle.up()
     turtle.left(180)
     turtle.setposition(a / 2, a / 2)
     triangle(a, "red")
@@ -81,6 +82,7 @@ def figure2():
     a = 400
     #Change parameter above to change painting's size
 
+    turtle.up()
     turtle.left(45)
     triangle(a, "yellow")
 
@@ -111,7 +113,8 @@ def figure3():
     #Change parameter below to change painting's size
     a = 400
     #Change parameter above to change painting's size
-
+    
+    turtle.up()
     turtle.left(45)
     triangle(a, "red")
 
@@ -143,6 +146,8 @@ def figure4():
     #Change parameter below to change painting's size
     a = 300
     #Change parameter above to change painting's size
+
+    turtle.up()
     turtle.setposition(0, a)
     turtle.right(90)
     triangle(a, "red")
@@ -177,6 +182,7 @@ def figure5():
     a = 300
     #Change parameter above to change painting's size
 
+    turtle.up()
     turtle.setposition(a/2, -a/2)
     turtle.left(90)
     triangle(a, "yellow")
@@ -274,9 +280,44 @@ def figure7():
     turtle.left(45)
     parallelogram(1/4 * a * math.sqrt(2), 1/2 * a, "lime")
 
-
+#Flying Bird
 def figure8():
-    pass
+
+    turtle.up()
+    turtle.setposition(-200 * 2/3 * math.sqrt(2)/2, 0)
+    turtle.left(45)
+    square(200 * 2/3, "orange")
+
+    turtle.left(90)
+    parallelogram(75 * math.sqrt(2), 150, "lime")
+    
+    turtle.setposition(-200 * 2/3 * math.sqrt(2)/2 - 75 * math.sqrt(2), -75 * math.sqrt(2))
+    turtle.right(90)
+    triangle(150, "violet")
+
+    turtle.setposition(-200 * 2/3 * math.sqrt(2)/2 - 75 * math.sqrt(2), 0)
+    turtle.left(180)
+    triangle(150, "orchid")
+
+    turtle.setposition(200 * 2/3 * math.sqrt(2)/2, 0)
+    turtle.right(135)
+    turtle.forward(150 * math.sqrt(2))
+    turtle.left(90)
+    turtle.forward(150 * math.sqrt(2))
+    turtle.left(135)
+    triangle(300, "red")
+
+    turtle.forward(300)
+    turtle.right(90)
+    triangle(300, "yellow")
+
+    turtle.setposition(200 * 2/3 * math.sqrt(2)/2, 75 * math.sqrt(2))
+    turtle.left(45)
+    triangle(150 * math.sqrt(2), "cyan")
+
+
+
+
 
 
 
@@ -309,5 +350,6 @@ turtle.speed("fast")
 #figure4()
 #figure5()
 #figure6()
-figure7()
+#figure7()
+figure8()
 turtle.exitonclick()
