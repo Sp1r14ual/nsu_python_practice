@@ -318,16 +318,51 @@ def figure8():
     turtle.left(45)
     triangle(1/2 * a * math.sqrt(2), "cyan")
 
+ #Flamingo
+def figure9():
+    pass
 
+
+
+
+
+
+
+print("Hello! What picture would you like to be presented?")
+print("Type the number:")
+print("Complicated square: 1")
+print("Person: 2")
+print("Another person: 3")
+print("Ship: 4")
+print("Helicopter: 5")
+print("Rocket: 6")
+print("Hare: 7")
+print("Flying Bird: 8")
+print("Flamingo: 9")
+
+user_choice = input()
 
 turtle.speed("fast")
 
-#figure1()
-#figure2()
-#figure3()
-#figure4()
-#figure5()
-#figure6()
-#figure7()
-figure8()
+if user_choice == "1":
+    figure1()
+elif user_choice == "2":
+    figure2()
+elif user_choice == "3":
+    figure3()
+elif user_choice == "4":
+    figure4()
+elif user_choice == "5":
+    figure5()
+elif user_choice == "6":
+    figure6()
+elif user_choice == "7":
+    figure7()
+elif user_choice == "8":
+    figure8()
+elif user_choice == "9":
+    figure9()
+else:
+    print("Error! There is no such option.")
+
 turtle.exitonclick()
