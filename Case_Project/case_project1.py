@@ -35,7 +35,7 @@ def parallelogram(a, b, color):
     turtle.forward(a)
     turtle.right(45)
     turtle.forward(b)
-    turtle.right(180-45)
+    turtle.right(135)
     turtle.forward(a)
     turtle.right(45)
     turtle.forward(b)
@@ -240,6 +240,42 @@ def figure6():
     triangle(a/2, "orchid")
 
 
+def figure7():
+
+    turtle.up()
+    turtle.setposition(0, 100 * math.sqrt(2))
+    turtle.right(135)
+    triangle(200, "red")
+
+    turtle.setposition(-100 * math.sqrt(2), -100 * math.sqrt(2))
+    turtle.right(180)
+    triangle(200, "yellow")
+
+    turtle.setposition(-25 * math.sqrt(2), -25 * math.sqrt(2))
+    turtle.left(180)
+    triangle(150, "cyan")
+
+    turtle.setposition(2/3 * 75 * math.sqrt(2)/2 * 1/2, -100 * math.sqrt(2))
+    turtle.right(90)
+    triangle(75, "violet")
+
+    turtle.setposition(0, 25 * math.sqrt(2))
+    turtle.left(135)
+    triangle(75, "orchid")
+
+    turtle.setposition(0, 75 * math.sqrt(2))
+    turtle.right(180)
+    square(50 * math.sqrt(2), "orange")
+
+    turtle.setposition(25 * math.sqrt(2), 125 * math.sqrt(2))
+    turtle.left(45)
+    parallelogram(50 * math.sqrt(2), 100, "lime")
+
+
+
+
+
+
 
     
 
@@ -267,5 +303,6 @@ turtle.speed("fast")
 #figure3()
 #figure4()
 #figure5()
-figure6()
+#figure6()
+figure7()
 turtle.exitonclick()
