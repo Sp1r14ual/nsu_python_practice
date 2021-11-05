@@ -239,7 +239,7 @@ def figure6():
     turtle.left(45)
     triangle(a/2, "orchid")
 
-
+#Hare
 def figure7():
     #Change parameter below to change painting's size
     a = 300
@@ -275,6 +275,8 @@ def figure7():
     parallelogram(1/4 * a * math.sqrt(2), 1/2 * a, "lime")
 
 
+def figure8():
+    pass
 
 
 
