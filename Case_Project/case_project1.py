@@ -320,35 +320,38 @@ def figure8():
 
  #Flamingo
 def figure9():
+    #Change parameter below to change painting's size
+    a = 400
+    #Change parameter above to change painting's size
     
     turtle.up()
-    turtle.setposition(0, -100 * math.sqrt(2))
+    turtle.setposition(0, -1/2 * a * math.sqrt(2))
     turtle.left(45)
-    triangle(200, "yellow")
+    triangle(a, "yellow")
 
-    turtle.setposition(-100 * math.sqrt(2), 1/2 * 100 * math.sqrt(2))
+    turtle.setposition(-1/2 * a * math.sqrt(2), 1/4 * a * math.sqrt(2))
     turtle.right(90)
-    triangle(200, "red")
+    triangle(a, "red")
 
     turtle.left(45)
-    triangle(100 * math.sqrt(2), "cyan")
+    triangle(1/2 * a * math.sqrt(2), "cyan")
 
     turtle.right(90)
-    parallelogram(1/3 * 200, 2/3 * 100 * math.sqrt(2), "lime")
+    parallelogram(1/3 * a, 1/3 * a * math.sqrt(2), "lime")
 
-    turtle.setposition(75 * math.sqrt(2), -100 * math.sqrt(2))
+    turtle.setposition(3/8 * a * math.sqrt(2), -1/2 * a * math.sqrt(2))
     turtle.left(180)
-    triangle(75 * math.sqrt(2), "orchid")
+    triangle(3/8 * a * math.sqrt(2), "orchid")
 
-    turtle.setposition(100 * math.sqrt(2), 0)
+    turtle.setposition(1/2 * a * math.sqrt(2), 0)
     turtle.left(90)
-    square(9/10 * 1/2 * 100 * math.sqrt(2), "orange")
+    square(9/40 * a * math.sqrt(2), "orange")
 
-    turtle.forward(9/10 * 1/2 * 100 * math.sqrt(2))
+    turtle.forward(9/40 * a * math.sqrt(2))
     turtle.right(90)
-    turtle.forward(9/10 * 1/2 * 100 * math.sqrt(2))
+    turtle.forward(9/40 * a * math.sqrt(2))
     turtle.right(90)
-    triangle(9/10 * 1/2 * 100 * math.sqrt(2) + 1/3 * 9/10 * 1/2 * 100 * math.sqrt(2), "violet")
+    triangle(9/40 * a * math.sqrt(2) + 9/120 * a * math.sqrt(2), "violet")
 
 
 
