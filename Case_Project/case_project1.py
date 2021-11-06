@@ -354,19 +354,6 @@ def figure9():
     triangle(9/40 * a * math.sqrt(2) + 9/120 * a * math.sqrt(2), "violet")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-'''
 print("Hello! What picture would you like to be presented?")
 print("Type the number:")
 print("Complicated square: 1")
@@ -380,9 +367,9 @@ print("Flying Bird: 8")
 print("Flamingo: 9")
 
 user_choice = input()
-'''
+
 turtle.speed("fast")
-'''
+
 if user_choice == "1":
     figure1()
 elif user_choice == "2":
@@ -403,6 +390,5 @@ elif user_choice == "9":
     figure9()
 else:
     print("Error! There is no such option.")
-'''
-figure9()
+
 turtle.exitonclick()
