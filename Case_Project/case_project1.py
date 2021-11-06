@@ -320,7 +320,35 @@ def figure8():
 
  #Flamingo
 def figure9():
-    pass
+    
+    turtle.up()
+    turtle.setposition(0, -100 * math.sqrt(2))
+    turtle.left(45)
+    triangle(200, "yellow")
+
+    turtle.setposition(-100 * math.sqrt(2), 1/2 * 100 * math.sqrt(2))
+    turtle.right(90)
+    triangle(200, "red")
+
+    turtle.left(45)
+    triangle(100 * math.sqrt(2), "cyan")
+
+    turtle.right(90)
+    parallelogram(1/3 * 200, 2/3 * 100 * math.sqrt(2), "lime")
+
+    turtle.setposition(75 * math.sqrt(2), -100 * math.sqrt(2))
+    turtle.left(180)
+    triangle(75 * math.sqrt(2), "orchid")
+
+    turtle.setposition(100 * math.sqrt(2), 0)
+    turtle.left(90)
+    square(9/10 * 1/2 * 100 * math.sqrt(2), "orange")
+
+    turtle.forward(9/10 * 1/2 * 100 * math.sqrt(2))
+    turtle.right(90)
+    turtle.forward(9/10 * 1/2 * 100 * math.sqrt(2))
+    turtle.right(90)
+    triangle(9/10 * 1/2 * 100 * math.sqrt(2) + 1/3 * 9/10 * 1/2 * 100 * math.sqrt(2), "violet")
 
 
 
@@ -328,6 +356,14 @@ def figure9():
 
 
 
+
+
+
+
+
+
+
+'''
 print("Hello! What picture would you like to be presented?")
 print("Type the number:")
 print("Complicated square: 1")
@@ -341,9 +377,9 @@ print("Flying Bird: 8")
 print("Flamingo: 9")
 
 user_choice = input()
-
+'''
 turtle.speed("fast")
-
+'''
 if user_choice == "1":
     figure1()
 elif user_choice == "2":
@@ -364,5 +400,6 @@ elif user_choice == "9":
     figure9()
 else:
     print("Error! There is no such option.")
-
+'''
+figure9()
 turtle.exitonclick()
