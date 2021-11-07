@@ -74,35 +74,33 @@ def figure1(x, y, a):
 
 
 #Person by the right from the square on preview
-def figure2():
-    #Change parameter below to change painting's size
-    a = 400
-    #Change parameter above to change painting's size
+def figure2(x, y, a):
 
     turtle.up()
+    turtle.setposition(x + 0, y + 0)
     turtle.left(45)
     triangle(a, "yellow")
 
-    turtle.setposition(-(a / 2) * math.sqrt(2), a / 2 * math.sqrt(2))
+    turtle.setposition(x + (-(a / 2) * math.sqrt(2)),y + (a / 2 * math.sqrt(2)))
     turtle.right(90)
     triangle(a, "red")
 
-    turtle.setposition(0, (a / 2) * math.sqrt(2))
+    turtle.setposition(x + 0, y + (a / 2) * math.sqrt(2))
     turtle.left(180)
     square(a / 4, "orange")
 
-    turtle.setposition(a / 4 * math.sqrt(2), -(a / 4) * math.sqrt(2))
+    turtle.setposition(x + a / 4 * math.sqrt(2), y + (-(a / 4) * math.sqrt(2)))
     triangle(a / 2, "cyan")
 
-    turtle.setposition(a / 4 * math.sqrt(2) * 3/4, -(a / 4) * math.sqrt(2))
+    turtle.setposition(x + a / 4 * math.sqrt(2) * 3/4, y + (-(a / 4) * math.sqrt(2)))
     turtle.right(180)
     triangle(3/4 * (a / 2), "violet")
 
-    turtle.setposition(0, 0)
+    turtle.setposition(x + 0, y + 0)
     turtle.right(90)
     parallelogram(a / 4 * math.sqrt(2) * 3/4, a / 4 * math.sqrt(2), "lime")
 
-    turtle.setposition(-(a * 65/1000) * math.sqrt(2), -(a / 4) * math.sqrt(2))
+    turtle.setposition(x + (-(a * 65/1000) * math.sqrt(2)), y + (-(a / 4) * math.sqrt(2)))
     triangle((a / 2) * 3/4, "orchid")
 
 #Person by the left from the square on preview
@@ -370,7 +368,7 @@ turtle.speed("fast")
 if user_choice == "1":
     figure1(0, 0, 300)
 elif user_choice == "2":
-    figure2()
+    figure2(0, 0, 100)
 elif user_choice == "3":
     figure3()
 elif user_choice == "4":
