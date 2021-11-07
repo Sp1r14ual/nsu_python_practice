@@ -45,21 +45,18 @@ def parallelogram(a, b, color):
 
 
 #Square built of other figures
-def figure1():
-    #Change parameter below to change size
-    a = 500
-    #Change parameter above to change size
+def figure1(x, y, a):
 
     turtle.up()
     turtle.left(180)
-    turtle.setposition(a / 2, a / 2)
+    turtle.setposition(x + a / 2, y + a / 2)
     triangle(a, "red")
 
-    turtle.setposition(-(a / 2), (a / 2))
+    turtle.setposition(x + (-(a / 2)), y + (a / 2))
     turtle.left(90)
     triangle(a, "yellow")
 
-    turtle.setposition(a / 2, 0)
+    turtle.setposition(x + a / 2, y + 0)
     turtle.left(180)
     triangle(a / 2, "orchid")
 
@@ -69,10 +66,10 @@ def figure1():
     triangle(a / 2 * math.sqrt(2), "cyan")
 
     turtle.left(135)
-    turtle.setposition(-(a / 4), -(a / 4))
+    turtle.setposition(x + (-(a / 4)), y + (-(a / 4)))
     triangle(a / 2, "violet")
 
-    turtle.setposition(-(a / 2), -(a / 2))
+    turtle.setposition(x + (-(a / 2)), y + (-(a / 2)))
     parallelogram(a / 2 * math.sqrt(2) / 2, a / 2, "lime")
 
 
@@ -371,7 +368,7 @@ user_choice = input()
 turtle.speed("fast")
 
 if user_choice == "1":
-    figure1()
+    figure1(0, 0, 300)
 elif user_choice == "2":
     figure2()
 elif user_choice == "3":
