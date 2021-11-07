@@ -135,91 +135,82 @@ def figure3(x, y, a):
     triangle(a/4, "orchid")
 
 #ship
-def figure4():
-    #Change parameter below to change painting's size
-    a = 300
-    #Change parameter above to change painting's size
+def figure4(x, y, a):
 
     turtle.up()
-    turtle.setposition(0, a)
+    turtle.setposition(x + 0, y + a)
     turtle.right(90)
     triangle(a, "red")
 
-    turtle.setposition(a/2, a/2)
+    turtle.setposition(x + a/2, y + a/2)
     turtle.left(45)
     square(a/4 * math.sqrt(2), "orange")
 
-    turtle.setposition(0, 0)
+    turtle.setposition(x + 0, y + 0)
     turtle.left(45)
     triangle(a/2, "orchid")
 
-    turtle.setposition(a/4 * math.sqrt(2), a)
+    turtle.setposition(x + a/4 * math.sqrt(2), y + a)
     turtle.left(135)
     triangle(a/2, "violet")
 
-    turtle.setposition(a/2, 0)
+    turtle.setposition(x + a/2, y + 0)
     turtle.left(45)
     triangle(3/4 * a, "cyan")
 
-    turtle.setposition(0, a * 1/10 + a * math.sqrt(2)/2)
+    turtle.setposition(x + 0, y + (a * 1/10 + a * math.sqrt(2)/2))
     turtle.left(45)
     triangle(a, "yellow")
 
-    turtle.setposition(-5/8 * a, 0)
+    turtle.setposition(x + -5/8 * a, y + 0)
     turtle.left(90)
     parallelogram(a/2 * 3/4, 3/4 * a * math.sqrt(2)/2, "lime")
 
 #helicopter
-def figure5():
-    #Change parameter below to change painting's size
-    a = 300
-    #Change parameter above to change painting's size
+def figure5(x, y, a):
 
     turtle.up()
-    turtle.setposition(a/2, -a/2)
+    turtle.setposition(x + a/2, y + (-a/2))
     turtle.left(90)
     triangle(a, "yellow")
 
-    turtle.setposition(a/2, a/2)
+    turtle.setposition(x + a/2, y + a/2)
     turtle.left(180)
     triangle(a, "red")
 
-    turtle.setposition(-a/4, a/2)
+    turtle.setposition(x + (-a/4), y + a/2)
     turtle.left(90)
     triangle(3/4 * a, "cyan")
 
-    turtle.setposition(a/2, a/2)
+    turtle.setposition(x + a/2, y + a/2)
     parallelogram(a/4 * math.sqrt(2), a/2, "lime")
 
-    turtle.setposition(-a/4, -a/4)
+    turtle.setposition(x + (-a/4), y + (-a/4))
     triangle(a/2, "orchid")
 
-    turtle.setposition(0, 0)
+    turtle.setposition(x + 0, y + 0)
     turtle.left(180)
     triangle(a/2, "violet")
 
-    turtle.setposition(-a/2, 0)
+    turtle.setposition(x + (-a/2), y + 0)
     turtle.left(45)
     turtle.forward(a/8)
     turtle.right(90)
     square(a/4, "orange")
 
 #Rocket
-def figure6():
-    #Change parameter below to change painting's size
-    a = 300
-    #Change parameter above to change painting's size
+def figure6(x, y, a):
 
     turtle.up()
-    turtle.setposition(0, -a/2)
+    turtle.setposition(x + 0, y + (-a/2))
     turtle.right(135)
     square(a/4 * math.sqrt(2), "orange")
 
-    turtle.setposition(-a/2, -a/2)
+    turtle.setposition(x + (-a/2), y + (-a/2))
     turtle.left(45)
     triangle(a/2, "violet")
 
-    turtle.setposition(a/4, -3/4 * a)
+    turtle.setposition(x + a/4, y + (-3/4 * a))
     turtle.left(180)
     triangle(a, "red")
 
@@ -228,7 +219,7 @@ def figure6():
     turtle.left(135)
     parallelogram(a/4 * math.sqrt(2), a/2, "lime")
 
-    turtle.setposition(-a/4, 3/4 * a)
+    turtle.setposition(x + (-a/4), y + 3/4 * a)
     turtle.right(180)
     triangle(a, "yellow")
 
@@ -239,63 +230,57 @@ def figure6():
     triangle(a/2, "orchid")
 
 #Hare
-def figure7():
-    #Change parameter below to change painting's size
-    a = 300
-    #Change parameter above to change painting's size
+def figure7(x, y, a):
 
     turtle.up()
-    turtle.setposition(0, 1/2 * a * math.sqrt(2))
+    turtle.setposition(x + 0, y + 1/2 * a * math.sqrt(2))
     turtle.right(135)
     triangle(a, "red")
 
-    turtle.setposition(-1/2 * a * math.sqrt(2), -1/2 * a * math.sqrt(2))
+    turtle.setposition(x + (-1/2 * a * math.sqrt(2)), y + (-1/2 * a * math.sqrt(2)))
     turtle.right(180)
     triangle(a, "yellow")
 
-    turtle.setposition(-1/8 * a * math.sqrt(2), -1/8 * a * math.sqrt(2))
+    turtle.setposition(x + (-1/8 * a * math.sqrt(2)), y + (-1/8 * a * math.sqrt(2)))
     turtle.left(180)
     triangle(3/4 * a, "cyan")
 
-    turtle.setposition(1/16 * a * math.sqrt(2), -1/2 * a * math.sqrt(2))
+    turtle.setposition(x + 1/16 * a * math.sqrt(2), y + (-1/2 * a * math.sqrt(2)))
     turtle.right(90)
     triangle(3/8 * a, "violet")
 
-    turtle.setposition(0, 1/8 * a * math.sqrt(2))
+    turtle.setposition(x + 0, y + (1/8 * a * math.sqrt(2)))
     turtle.left(135)
     triangle(3/8 * a, "orchid")
 
-    turtle.setposition(0, 3/8 * a * math.sqrt(2))
+    turtle.setposition(x + 0, y + 3/8 * a * math.sqrt(2))
     turtle.right(180)
     square(1/4 * a * math.sqrt(2), "orange")
 
-    turtle.setposition(1/8 * a * math.sqrt(2), 5/8 * a * math.sqrt(2))
+    turtle.setposition(x + 1/8 * a * math.sqrt(2), y + 5/8 * a * math.sqrt(2))
     turtle.left(45)
     parallelogram(1/4 * a * math.sqrt(2), 1/2 * a, "lime")
 
 #Flying Bird
-def figure8():
-    #Change parameter below to change painting's size
-    a = 400
-    #Change parameter above to change painting's size
+def figure8(x, y, a):
 
     turtle.up()
-    turtle.setposition(-4/9 * a * math.sqrt(2)/2, 0)
+    turtle.setposition(x + (-4/9 * a * math.sqrt(2)/2), y + 0)
     turtle.left(45)
     square(a * 4/9, "orange")
 
     turtle.left(90)
     parallelogram(1/4 * a * math.sqrt(2), 1/2 * a, "lime")
     
-    turtle.setposition(-4/9 * a * math.sqrt(2)/2 - 1/4 * a * math.sqrt(2), -1/4 * a * math.sqrt(2))
+    turtle.setposition(x + (-4/9 * a * math.sqrt(2)/2 - 1/4 * a * math.sqrt(2)), y + -1/4 * a * math.sqrt(2))
     turtle.right(90)
     triangle(1/2 * a, "violet")
 
-    turtle.setposition(-4/9 * a * math.sqrt(2)/2 - 1/4 * a * math.sqrt(2), 0)
+    turtle.setposition(x + (-4/9 * a * math.sqrt(2)/2 - 1/4 * a * math.sqrt(2)), y + 0)
     turtle.left(180)
     triangle(1/2 * a, "orchid")
 
-    turtle.setposition(4/9 * a * math.sqrt(2)/2, 0)
+    turtle.setposition(x + 4/9 * a * math.sqrt(2)/2, y + 0)
     turtle.right(135)
     turtle.forward(1/2 * a * math.sqrt(2))
     turtle.left(90)
@@ -307,22 +292,19 @@ def figure8():
     turtle.right(90)
     triangle(a, "yellow")
 
-    turtle.setposition(4/9 * a * math.sqrt(2)/2, 1/4 * a * math.sqrt(2))
+    turtle.setposition(x + 4/9 * a * math.sqrt(2)/2, y + 1/4 * a * math.sqrt(2))
     turtle.left(45)
     triangle(1/2 * a * math.sqrt(2), "cyan")
 
  #Flamingo
-def figure9():
-    #Change parameter below to change painting's size
-    a = 400
-    #Change parameter above to change painting's size
+def figure9(x, y, a):
     
     turtle.up()
-    turtle.setposition(0, -1/2 * a * math.sqrt(2))
+    turtle.setposition(x + 0, y + (-1/2 * a * math.sqrt(2)))
     turtle.left(45)
     triangle(a, "yellow")
 
-    turtle.setposition(-1/2 * a * math.sqrt(2), 1/4 * a * math.sqrt(2))
+    turtle.setposition(x + (-1/2 * a * math.sqrt(2)), y + 1/4 * a * math.sqrt(2))
     turtle.right(90)
     triangle(a, "red")
 
@@ -332,11 +314,11 @@ def figure9():
     turtle.right(90)
     parallelogram(1/3 * a, 1/3 * a * math.sqrt(2), "lime")
 
-    turtle.setposition(3/8 * a * math.sqrt(2), -1/2 * a * math.sqrt(2))
+    turtle.setposition(x + 3/8 * a * math.sqrt(2), y + (-1/2 * a * math.sqrt(2)))
     turtle.left(180)
     triangle(3/8 * a * math.sqrt(2), "orchid")
 
-    turtle.setposition(1/2 * a * math.sqrt(2), 0)
+    turtle.setposition(x + 1/2 * a * math.sqrt(2), y + 0)
     turtle.left(90)
     square(9/40 * a * math.sqrt(2), "orange")
 
@@ -346,42 +328,17 @@ def figure9():
     turtle.right(90)
     triangle(9/40 * a * math.sqrt(2) + 9/120 * a * math.sqrt(2), "violet")
 
-
-print("Hello! What picture would you like to be presented?")
-print("Type the number:")
-print("Complicated square: 1")
-print("Person: 2")
-print("Another person: 3")
-print("Ship: 4")
-print("Helicopter: 5")
-print("Rocket: 6")
-print("Hare: 7")
-print("Flying Bird: 8")
-print("Flamingo: 9")
-
-user_choice = input()
-
 turtle.speed("fast")
 
-if user_choice == "1":
-    figure1(0, 0, 300)
-elif user_choice == "2":
-    figure2(0, 0, 100)
-elif user_choice == "3":
-    figure3(0, 0, 200)
-elif user_choice == "4":
-    figure4()
-elif user_choice == "5":
-    figure5()
-elif user_choice == "6":
-    figure6()
-elif user_choice == "7":
-    figure7()
-elif user_choice == "8":
-    figure8()
-elif user_choice == "9":
-    figure9()
-else:
-    print("Error! There is no such option.")
+
+#figure1(-200, 200, 200)
+#figure2(200, 200, 200)
+#figure3(0, 0, 200)
+#figure4(0, 0, 200)
+#figure5(0, 0, 200)
+#figure6(0, 0, 200)
+#figure7(0, 0, 200)
+#figure8(0, 0, 200)
+figure9(-200, 200, 200)
 
 turtle.exitonclick()
