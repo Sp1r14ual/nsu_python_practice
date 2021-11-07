@@ -1,3 +1,11 @@
+# Case-study #1
+# Developers:
+# Panasenko Sergey - 50%
+# Tamarkin Nikita - 35%
+# Lysenko Matvey - 30%
+# Yachin Denis - 25%
+
+
 import turtle, math
 
 def triangle(a, color):
