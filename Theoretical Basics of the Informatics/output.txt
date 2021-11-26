@@ -1,0 +1,51 @@
+s = 1
+Possibility for character s is 0.018867924528301886
+
+o = 5
+Possibility for character o is 0.09433962264150944
+
+m = 2
+Possibility for character m is 0.03773584905660377
+
+e = 8
+Possibility for character e is 0.1509433962264151
+
+  = 8
+Possibility for character   is 0.1509433962264151
+
+t = 5
+Possibility for character t is 0.09433962264150944
+
+x = 2
+Possibility for character x is 0.03773584905660377
+
+
+ = 3
+
+a = 4
+Possibility for character a is 0.07547169811320754
+
+n = 6
+Possibility for character n is 0.11320754716981132
+
+h = 1
+Possibility for character h is 0.018867924528301886
+
+r = 2
+Possibility for character r is 0.03773584905660377
+
+l = 1
+Possibility for character l is 0.018867924528301886
+
+i = 2
+Possibility for character i is 0.03773584905660377
+
+d = 1
+Possibility for character d is 0.018867924528301886
+
+c = 1
+Possibility for character c is 0.018867924528301886
+
+g = 1
+Possibility for character g is 0.018867924528301886
+
