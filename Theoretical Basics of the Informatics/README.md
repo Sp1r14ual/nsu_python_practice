@@ -1,6 +1,6 @@
 # Letter Counter
 
-This is just a basic program, that automates counting letters and whitespaces in the text instead of doing it manually via Microsoft Excel.
+This is just a basic program, that automates counting letters and whitespaces in the text and calculating the possibility of appearing of a certain character in the text instead of doing it manually via Microsoft Excel or likewise software.
 
 Important Note: You have to put your text in "input.txt" file, which has to be in the same directory with letter_counter.py. If you make a typo in the name of the file or simply put it in the wrong place, the program will throw an exception and will be immediately terminated, so be careful. 
 
