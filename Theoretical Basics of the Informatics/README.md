@@ -1,4 +1,4 @@
-#Letter Counter
+# Letter Counter
 
 This is just a basic program, that automates counting letters and whitespaces in the text instead of doing it manually via Microsoft Excel.
 
