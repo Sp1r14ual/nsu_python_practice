@@ -37,7 +37,7 @@ if choice == "1":
 
 elif choice == "2":
     if 0 <= annual_income <= 18150:
-        tax = annual_income * 0.1   
+        tax = annual_income * 0.1
     elif 18151 <= annual_income <= 73800:
         tax = annual_income * 0.15 - 907.5
     elif 73801 <= annual_income <= 148850:
@@ -54,22 +54,16 @@ elif choice == "2":
 elif choice == "3":
     if 0 <= annual_income <= 12950:
         tax = annual_income * 0.1
-        
     elif 12951 <= annual_income <= 49400:
         tax = annual_income * 0.15 - 1427.4
-        
     elif 49401 <= annual_income <= 127550:
         tax = annual_income * 0.25 - 8807.4
-        
     elif 127551 <= annual_income <= 206600:
         tax = annual_income * 0.28 - 13272.9
-        
     elif 206601 <= annual_income <= 405100:
         tax = annual_income * 0.33 - 24615.4
-        
     elif 405101 <= annual_income <= 432200:
         tax = annual_income * 0.35 - 32717.4
-        
     elif annual_income >= 432201:
         tax = annual_income * 0.396 - 57785.5
 
