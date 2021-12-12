@@ -1,3 +1,8 @@
+# Team
+# Panasenko Sergey - 50%
+# Lysenko Matvey - 25%
+# Yachin Denis - 25%
+
 print('Выберете статус налогоплательщика:')
 print('1. Для одного субъекта')
 print('2. Для супружеской пары')
