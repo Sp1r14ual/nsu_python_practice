@@ -13,7 +13,6 @@ annual_income = 0
 for month in months:
     print(f"{month}")
     income = float(input())
-    
     if income < 0:
         print("Некорректные входные данные")
         exit()
@@ -40,13 +39,13 @@ elif choice == "2":
     if 0 <= annual_income <= 18150:
         tax = annual_income * 0.1   
     elif 18151 <= annual_income <= 73800:
-        tax = annual_income * 0.15 - 907.5   
+        tax = annual_income * 0.15 - 907.5
     elif 73801 <= annual_income <= 148850:
-        tax = annual_income * 0.25 - 8287.5    
+        tax = annual_income * 0.25 - 8287.5
     elif 148851 <= annual_income <= 226850:
         tax = annual_income * 0.28 - 12753
     elif 226851 <= annual_income <= 405100:
-        tax = annual_income * 0.33 - 24095.5     
+        tax = annual_income * 0.33 - 24095.5
     elif 405101 <= annual_income <= 457600:
         tax = annual_income * 0.35 - 32197.5
     elif annual_income >= 457601:
@@ -57,22 +56,22 @@ elif choice == "3":
         tax = annual_income * 0.1
         
     elif 12951 <= annual_income <= 49400:
-        tax = 12951 * 0.1 + (annual_income - 18150) * 0.15
+        tax = annual_income * 0.15 - 1427.4
         
     elif 49401 <= annual_income <= 127550:
-        tax = 12951 * 0.1 + 55650 * 0.15 + (annual_income - 73800) * 0.25
+        tax = annual_income * 0.25 - 8807.4
         
     elif 127551 <= annual_income <= 206600:
-        tax = 12951 * 0.1 + 55650 * 0.15 + 75050 * 0.25 + (annual_income - 148850) * 0.28
+        tax = annual_income * 0.28 - 13272.9
         
     elif 206601 <= annual_income <= 405100:
-        tax = 12951 * 0.1 + 55650 * 0.15 + 75050 * 0.25 + 78000 * 0.28 + (annual_income - 226850) * 0.33
+        tax = annual_income * 0.33 - 24615.4
         
     elif 405101 <= annual_income <= 432200:
-        tax = 12951 * 0.1 + 55650 * 0.15 + 75050 * 0.25 + 78000 * 0.28 + 178250 * 0.33 + (annual_income - 405100) * 0.35
+        tax = annual_income * 0.35 - 32717.4
         
     elif annual_income >= 432201:
-        tax = 12951 * 0.1 + 36450 * 0.15 + 78150 * 0.25 + 79050 * 0.28 + 198500 * 0.33 + 27100 * 0.35 + (annual_income - 457600) * 0.396
+        tax = annual_income * 0.396 - 57785.5
 
 else:
     print("Некорректные входные данные")
